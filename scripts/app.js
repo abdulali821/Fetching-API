@@ -55,20 +55,3 @@
 //         });
 // }
 // fetchData();
-
-// let namee = document.getElementById("exampleInputName1");
-// let jobb = document.getElementById("exampleInputJob1");
-
-// function postData(event){
-//     event.preventDefault();
-//     fetch('https://reqres.in/api/users',{
-//     method: "post",
-//     body: JSON.stringify({
-//         name: namee,
-//         job: jobb
-//         })
-//     }).then(response=> {
-//             return response.json();
-//     })
-// }
-// postData();
